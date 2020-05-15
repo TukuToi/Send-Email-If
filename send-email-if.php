@@ -14,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-add_action( 'the_content', 'tkt_sei_get_queried_object' );
+add_action( 'wp_footer', 'tkt_sei_get_queried_object' );
 
 function tkt_sei_get_queried_object() {
 	
@@ -63,7 +63,9 @@ function tkt_sei_send_mail($current_data){
 		$headers[] = $key.': '.$email;
 	}
 
-	$user_to_send_mail = get_user_by('login',$current_data['query']['name']);
+	$username = isset($current_data['query']['name']) ? $current_data['query']['name'] : (isset($current_data['query']['pagename']) ? $current_data['query']['pagename'] : '');
+	$user_to_send_mail = get_user_by('login', $username);
+	
 
 	if (is_object($user_to_send_mail)) 
 		wp_mail( $user_to_send_mail->data->user_email, $subject, $message, $headers );
