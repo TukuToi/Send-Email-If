@@ -1,7 +1,7 @@
 # Send-Email-If
 Sends an Email if specific conditions are met to specific receivers. Currently raw code must be edited to amend conditions or receivers.
 
-Currently the Plugin sends an email to the user of which the username corresponds to the post/page visited. The mail will tell that user who visited the post if possible.
+The Plugin sends an email to the user of which the username corresponds to the post/page visited. The mail will reveal to the receiver who visited the post, if possible.
 
 
 # Usage
