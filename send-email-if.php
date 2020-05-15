@@ -41,9 +41,9 @@ function tkt_sei_get_queried_object() {
 function tkt_sei_settings($params, $current_data){
 
 	//This could be a GUI
-	$settings = array('sample-page', 'monthnum'=>'05');
+	$settings = array('sample-page', 'monthnum'=>'05', 'beda_schmid');
 
-	if (array_intersect($settings, $params)) {
+	if (!empty(array_intersect($settings, $params))) {
 		tkt_sei_send_mail($current_data);
 	}
 
