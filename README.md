@@ -11,5 +11,9 @@ The Plugin sends an email to the user of which the username corresponds to the p
 - View that page or post as any user or guest.
 - The user with the same username as post name you visited will receive an email telling him/her you visited the specific post
 
-This all sounds very raw and useless but it cann be useful to for example notify someone when someone (for example) viewes or downloads some content, since the plugin is based on the actual query the user runs, almost anything can be monitered 
+This all sounds very raw and useless but it can be useful to for example notify someone when someone else viewes, downloads or else interacts with some content somehow related to an(y) user.
+
+Since the plugin is based on the actual query the user runs, almost anything can be monitered.
+
+The plugin uses WordPreess core `wp_mail()` so it should work out of the box in any WordPress ennvironment without any need for additional email handlers. 
 
