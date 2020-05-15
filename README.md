@@ -7,7 +7,7 @@ The Plugin sends an email to the user of which the username corresponds to the p
 # Usage
 
 - Install and activate like any other WordPress plugin.
-- Create a new post or page with `Post Title` precisely equal to the `username` (all in lower case) of any existing WordPress user.
+- Create a new post or page with Post Title precisely equal to the `username` (all in lower case) of any existing WordPress user.
 - View that page or post as any user or guest.
 - The user with the same username as post name you visited will receive an email telling him/her you visited the specific post
 
