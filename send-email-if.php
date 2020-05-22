@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Send Email If
- * Description: Send Emails to X when Y happens. This version is specifically adapted for https://juniorcollegiatetour.com: Emails will be sent to the address stored in the "parents email" Field on subpages, only when a logged in Coach is viewing the subpage (player profile). 
+ * Description: Send Emails to X when Y happens.
  * Plugin URI: https://www.tukutoi.com/program/send-email-if/
  * Author: TukuToi
  * Author URI: https://www.tukutoi.com/author/Beda_Schmid/
