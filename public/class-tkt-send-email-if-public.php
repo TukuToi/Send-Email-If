@@ -109,7 +109,7 @@ class Tkt_Send_Email_If_Public {
 		$role       = apply_filters( $this->plugin_short . '_notify_on_role_visit', array() );
 
 		if (
-			is_single()
+			is_singular()
 			&& in_array( get_post_type(), (array) $post_type )
 			&& get_option( 'permalink_structure' )
 		) {
