@@ -73,7 +73,9 @@ class Tkt_Send_Email_If_Admin {
 		$title = apply_filters( $this->plugin_short . '_metabox_title', __( 'Email Address', 'tkt-send-email-if' ) );
 		$screen = apply_filters( $this->plugin_short . '_metabox_location', array() );
 
-		add_meta_box( 'tkt_sei_email_address', esc_html( $title ), array( $this, 'metabox_display_template' ), array_map( 'esc_html', $screen ), 'side', 'low' );
+		if ( ! empty( $screen ) ) {
+			add_meta_box( 'tkt_sei_email_address', esc_html( $title ), array( $this, 'metabox_display_template' ), array_map( 'esc_html', $screen ), 'side', 'low' );
+		}
 
 	}
 
