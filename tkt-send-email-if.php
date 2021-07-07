@@ -15,7 +15,7 @@
  * Plugin Name:       TukuToi Send Email If
  * Plugin URI:        https://www.tukutoi.com/program/send-email-if/
  * Description:       Send Email If Plugin allows you to send an email to a dynamically set receiver, whenever a Post is visited by users of defined roles.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            TukuToi
  * Author URI:        https://www.tukutoi.com/
  * License:           GPL-2.0+
@@ -34,7 +34,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'TKT_SEND_EMAIL_IF_VERSION', '1.0.0' );
+define( 'TKT_SEND_EMAIL_IF_VERSION', '1.0.1' );
 
 /**
  * The core plugin class that is used to define internationalization,
