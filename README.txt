@@ -28,7 +28,6 @@ The rest of the Plugin functionality is controlled with a set of Filters.
 == Installation ==
 
 1. Install and Activate like any other Plugin in WordPress.
-1. Head to the Plugin Settings Screen in the WordPress Dashboard > TukuToi > Send Email If. There you can control the Plugin settings such as determine which posts should trigger an email, and what action should send the email, and customize the email sent.
 1. Control the plugin settings with the provided Filters (see FAQ)
 1. Save the email for each specific post where you want an email being sent.
 
